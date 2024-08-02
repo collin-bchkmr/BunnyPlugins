@@ -9,7 +9,7 @@ import {
   import { getAssetIDByName } from "@vendetta/ui/assets";
   import { Forms } from "@vendetta/ui/components";
   import { showToast } from "@vendetta/ui/toasts";
-  import { BetterTableRowGroup } from "./BetterTableRow";
+  import { BetterTableRowGroup } from "./lib/components/BetterTableRow";
   
   const { FormSwitchRow, FormIcon, FormRow } = Forms;
   

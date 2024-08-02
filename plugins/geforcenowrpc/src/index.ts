@@ -37,25 +37,8 @@ export const debug: {
 
 export default {
   onLoad: async () => {
-    vstorage.settings ??= {
-      edit: false,
-      display: false,
-      debug: {
-        enabled: false,
-        visible: false,
-      },
-    };
-    vstorage.activity ??= {
-      editing: makeEmptySettingsActivity(),
-    };
-    vstorage.profiles ??= PresetProfiles;
-
-    dispatchActivityIfPossible();
-    registerDefaultChanges();
   },
   onUnload: () => {
-    dispatchActivity();
-    unregisterChanges(true);
   },
   settings,
 };

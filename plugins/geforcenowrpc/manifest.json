@@ -1,0 +1,14 @@
+{
+  "name": "GeForce NOW",
+  "description": "Uses GeForce NOW game as your status",
+  "authors": [
+    {
+      "name": "Hymmel",
+      "id": "219191061199847424"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "games"
+  }
+}

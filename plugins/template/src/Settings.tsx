@@ -14,18 +14,10 @@ import {
   
   export default () => {
     return (
-      <>
-        <RN.ScrollView
-          style={{
-            zIndex: 1,
-          }}
-        >
         <FormSwitchRow
             label="WEEWEE Mode"
             subLabel="UWU"
             value={"vstorage.settings.edit"}
         />
-        </RN.ScrollView>
-      </>
     );
   };

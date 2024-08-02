@@ -9,7 +9,6 @@ import {
   import { getAssetIDByName } from "@vendetta/ui/assets";
   import { Forms } from "@vendetta/ui/components";
   import { showToast } from "@vendetta/ui/toasts";
-  import { BetterTableRowGroup } from "./lib/components/BetterTableRow";
   
   const { FormSwitchRow, FormIcon, FormRow } = Forms;
   
@@ -21,15 +20,11 @@ import {
             zIndex: 1,
           }}
         >
-          <BetterTableRowGroup
-            title="Settings"
-          >
-            <FormSwitchRow
-              label="WEEWEE Mode"
-              subLabel="UWU"
-              value={"vstorage.settings.edit"}
-            />
-          </BetterTableRowGroup>
+        <FormSwitchRow
+            label="WEEWEE Mode"
+            subLabel="UWU"
+            value={"vstorage.settings.edit"}
+        />
         </RN.ScrollView>
       </>
     );

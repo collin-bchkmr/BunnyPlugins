@@ -12,7 +12,7 @@ export default {
                 {
                     key: "HYMMEL",
                     title: () => "Hymmel",
-                    render: () => Settings,
+                    render: () => import("./pages/test"),
                     rawTabsConfig: {
                         useTrailing: () => "ABC TEST"
                     }

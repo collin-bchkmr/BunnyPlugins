@@ -1,7 +1,7 @@
 import { Stack, TableRow, TableRowGroup } from "@vendetta/ui/components";
 import { ScrollView } from "react-native";
 
-export default function General() {
+export default function test() {
     return (
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ paddingBottom: 38 }}>
             <Stack style={{ paddingVertical: 24, paddingHorizontal: 12 }} spacing={24}>

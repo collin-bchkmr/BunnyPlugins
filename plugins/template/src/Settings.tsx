@@ -22,10 +22,6 @@ import {
           }}
         >
           <BetterTableRowGroup
-            title="TEEEEEEEEEEEE"
-          >
-          </BetterTableRowGroup>
-          <BetterTableRowGroup
             title="Settings"
           >
             <FormSwitchRow

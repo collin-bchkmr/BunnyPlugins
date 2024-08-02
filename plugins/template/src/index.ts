@@ -1,11 +1,12 @@
 import { logger } from "@vendetta";
 import Settings from "./Settings";
-import { registerSection } from "$lib/ui/settings";
+
+const bunny = (window as any).bunny;
 
 export default {
     onLoad: () => {
         logger.log("Hello world!");
-        registerSection({
+        bunny.ui.settings.registerSection({
             name: "Hymmel",
             items: [
                 {

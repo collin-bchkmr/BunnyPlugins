@@ -1,6 +1,6 @@
 import { logger } from "@vendetta";
 import Settings from "./Settings";
-import { registerSection } from "@vendetta/ui/settings";
+import { registerSection } from "$lib/ui/settings";
 
 export default {
     onLoad: () => {

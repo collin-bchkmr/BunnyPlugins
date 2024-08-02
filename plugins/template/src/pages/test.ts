@@ -1,4 +1,4 @@
-import { Stack, TableRow, TableRowGroup } from "@vendetta/ui/components";
+import { Stack, TableRow, TableRowGroup } from "@vendetta/ui/components/discord/Redesign";
 import { ScrollView } from "react-native";
 
 export default function test() {

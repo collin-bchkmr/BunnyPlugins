@@ -13,7 +13,7 @@ export default {
                     key: "HYMMEL",
                     title: () => "Hymmel",
                     icon: getAssetIDByName("WrenchIcon"),
-                    render: () => import("@core/ui/settings/pages/General"),
+                    render: () => Settings,
                     rawTabsConfig: {
                         useTrailing: () => "ABC TEST"
                     }
